@@ -192,8 +192,6 @@ We can also set a class on an element by binding to the input property binding c
 
 NOTE: The `'text-success'` is wrapped with single quotes so when it's evaluated as JavaScript it doesn't try to treat `text-success` as a variable.
 
-IMPORTANT: The above syntax removes *all* the existing classes for that element and replaces them with just 'text-success'.
-
 If we want to just add `text-success` to the list of classes already set on the element we can use the extended syntax `[class.<class-name>]='truthy expression'`
 
 So for instance to add text-success to the list of classes for an element we can use:
